@@ -26,5 +26,5 @@ Next steps:
 - Done!
 
 ### Screenshots
-(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Hack Menu")
-(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "FlyHack")
+![Hack GUI](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/hack_menu.png)
+![Fly Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/fly_hack.png)
