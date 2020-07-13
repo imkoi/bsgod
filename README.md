@@ -1,4 +1,4 @@
-# BSGOD
+# BSGOD by Koi
 BSGOD is multi-hack for Blockstorm game.
 Current hacks:
 - Aim hack
