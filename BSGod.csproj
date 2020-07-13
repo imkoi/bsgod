@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BD77556F-66FB-4420-BE5E-7CFDCAA0F044}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>BSGod</RootNamespace>
+    <AssemblyName>BSGod</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Source\BsGodEntry.cs" />
+    <Compile Include="Source\BsGodInputRaiser.cs" />
+    <Compile Include="Source\Gui\GuiSlider.cs" />
+    <Compile Include="Source\Gui\GuiText.cs" />
+    <Compile Include="Source\Gui\IGui.cs" />
+    <Compile Include="Source\Gui\GuiPanel.cs" />
+    <Compile Include="Source\Hacks\AimHackModule.cs" />
+    <Compile Include="Source\Hacks\Base\BaseHackModule.cs" />
+    <Compile Include="Source\Hacks\FlyHackModule.cs" />
+    <Compile Include="Source\Hacks\RecoilHackModule.cs" />
+    <Compile Include="Source\Hacks\SpeedHackModule.cs" />
+    <Compile Include="Source\Hacks\WallHackModule.cs" />
+    <Compile Include="Source\Managers\BsGodHackManager.cs" />
+    <Compile Include="Source\Data\BsPlayer.cs" />
+    <Compile Include="Source\Managers\BsGodPlayerManager.cs" />
+    <Compile Include="Source\Managers\BsGodGuiManager.cs" />
+    <Compile Include="Source\Managers\BsGodInputManager.cs" />
+    <Compile Include="Source\Gui\GuiButton.cs" />
+    <Compile Include="Source\BsGodInjector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blockstorm\Blockstorm_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Blockstorm\Blockstorm_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
