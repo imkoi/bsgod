@@ -7,6 +7,7 @@ namespace BSGod.Managers
     public class BsGodGuiManager
     {
         private const string MenuTextName = "BS GOD v1.0.1";
+        private const string AuthorTextName = "by Koi";
         private const string AimHackButtonName = "Aim Hack";
         private const string WallHackButtonName = "Wall Hack";
         private const string SpeedHackButtonName = "Speed Hack";
@@ -17,6 +18,7 @@ namespace BSGod.Managers
 
         private GuiPanel _menuPanel;
         private GuiText _menuText;
+        private GuiText _authorText;
 
         private GuiButton _wallHackButton;
         private GuiButton _aimHackButton;
@@ -39,6 +41,7 @@ namespace BSGod.Managers
             {
                 _menuPanel,
                 _menuText,
+                _authorText,
 
                 _wallHackButton,
                 _aimHackButton,
@@ -66,7 +69,8 @@ namespace BSGod.Managers
         private void SetupGui()
         {
             _menuPanel = new GuiPanel(new Rect(20, 240, 200, 190), Color.red);
-            _menuText = new GuiText(new Rect(75, 250, 180, 20), Color.red, MenuTextName);
+            _menuText = new GuiText(new Rect(75, 240, 180, 20), Color.red, MenuTextName);
+            _authorText = new GuiText(new Rect(100, 257, 180, 20), Color.white, AuthorTextName);
 
             _wallHackButton = new GuiButton(new Rect(30, 280, 180, 20), WallHackButtonName);
             _aimHackButton = new GuiButton(new Rect(30, 310, 180, 20), AimHackButtonName);
