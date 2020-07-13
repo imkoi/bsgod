@@ -22,5 +22,9 @@ Next steps:
 - Open Command Prompt
 - Write commands:
 	1. cd "Path_to_SharpMonoInjector"
-	2. smi.exe inject -p Blockstorm -a BSGod.dll -n BSGod -c BsGodInjector -m Inject
+	2. smi.exe inject -p Blockstorm -a BSGod.dll -n BSGod -c Injector -m Inject
 - Done!
+
+### Screenshots
+(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Hack Menu")
+(https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "FlyHack")
