@@ -6,8 +6,8 @@ namespace BSGod.Managers
 {
     public class BsGodGuiManager
     {
-        private const string MenuTextName = "BS GOD v0.0.1";
-        private const string AimHackButtonName = "Aim Hack [WIP]";
+        private const string MenuTextName = "BS GOD v1.0.1";
+        private const string AimHackButtonName = "Aim Hack";
         private const string WallHackButtonName = "Wall Hack";
         private const string SpeedHackButtonName = "Speed Hack";
         private const string FlyHackButtonName = "Fly Hack";
