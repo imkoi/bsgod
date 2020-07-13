@@ -15,7 +15,7 @@ Current hacks:
 5. Inject BSGod.dll and press Insert key to show BSGOD gui
 
 ### How to inject hack
-To inject hack you can use SharpMonoInjector[https://github.com/warbler/SharpMonoInjector]
+To inject hack you can use [SharpMonoInjector](https://github.com/warbler/SharpMonoInjector)
 Next steps:
 - Run game
 - Move BSGod.dll to SharpMonoInjector folder
