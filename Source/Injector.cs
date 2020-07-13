@@ -2,7 +2,7 @@
 
 namespace BSGod
 {
-    public static class BsGodInjector
+    public static class Injector
     {
         public static void Inject()
         {
