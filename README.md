@@ -8,6 +8,9 @@ Current hacks:
 - Recoil hack
 
 ### How to get BSGod.dll
+Fastest way - download [latest release](https://github.com/imkoi/bsgod/releases)
+
+Or build it by yourself :)
 1. Open BSGod.csproj in Visual Studio
 2. Add reference to UnityEngine.dll from "BlockstormFolder"\Blockstorm_Data\Managed\
 3. Add reference to Assembly-CSharp.dll from "BlockstormFolder"\Blockstorm_Data\Managed\
@@ -28,3 +31,5 @@ Next steps:
 ### Screenshots
 ![Hack GUI](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/hack_menu.png)
 ![Fly Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/fly_hack.png)
+![Wall Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/hack_wh.png)
+![Aim Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/aim.png)
