@@ -29,7 +29,7 @@ Next steps:
 - Done!
 
 ### Screenshots
-![Hack GUI](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/hack_menu.png)
-![Fly Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/fly_hack.png)
-![Wall Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/hack_wh.png)
-![Aim Hack](https://github.com/imkoi/bsgod/blob/1.0.1/Screenshots/aim.png)
+![Hack GUI](https://github.com/imkoi/bsgod/blob/master/Screenshots/hack_menu.png)
+![Fly Hack](https://github.com/imkoi/bsgod/blob/master/Screenshots/fly_hack.png)
+![Wall Hack](https://github.com/imkoi/bsgod/blob/master/Screenshots/hack_wh.png)
+![Aim Hack](https://github.com/imkoi/bsgod/blob/master/Screenshots/aim.png)
