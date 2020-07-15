@@ -28,6 +28,10 @@ Next steps:
 	2. smi.exe inject -p Blockstorm -a BSGod.dll -n BSGod -c Injector -m Inject
 - Done!
 
+### About code and code style :)
+There are no code style at all, code writted on c# 2.0, because the game still use unity 4.5.5...
+Also this cheat was writted in one day, so i didnt try to optimize it at all
+
 ### Screenshots
 ![Hack GUI](https://github.com/imkoi/bsgod/blob/master/Screenshots/hack_menu.png)
 ![Fly Hack](https://github.com/imkoi/bsgod/blob/master/Screenshots/fly_hack.png)
